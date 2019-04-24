@@ -12,5 +12,5 @@ os.rename(os.path.join(PROJECT_DIR, MARKDOWN),
 shutil.rmtree(PROJECT_DIR)
 
 import subprocess
-_=subprocess.run('code %s' %os.path.join(PARENT_DIR, MARKDOWN))
+_=subprocess.run('code %s' %(os.path.join(PARENT_DIR, MARKDOWN)).replace(' ','\ '))
 
