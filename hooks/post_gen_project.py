@@ -11,4 +11,4 @@ os.rename(os.path.join(PROJECT_DIR, MARKDOWN),
 
 shutil.rmtree(PROJECT_DIR)
 
-_=os.system('code %s' %MARKDOWN)
+_=os.system('code %s' %(os.path.join(PARENT_DIR, MARKDOWN)))
