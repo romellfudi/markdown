@@ -1,6 +1,5 @@
 {
-  "project": "MarkDown",
   "tittle": "A new Day",
   "tag": "Life",
-  "_copy_without_render": [".gradle", "gradle/", "*gradlew", "*gradlew.bat"]
+  "_copy_without_render": [".hook"]
 }
