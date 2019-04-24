@@ -17,4 +17,4 @@ _=os.system('code "%s"' %file)
 print('------------------------')
 file = MARKDOWN
 print(file)
-_=os.system('code %s' %file)
+_=os.system('code "%s"' %file)
