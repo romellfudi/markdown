@@ -10,6 +10,6 @@ os.rename(os.path.join(PROJECT_DIR, MARKDOWN),
           os.path.join(PARENT_DIR, MARKDOWN))
 
 shutil.rmtree(PROJECT_DIR)
-print(MARKDOWN)
-print(os.path.join(PARENT_DIR, MARKDOWN))
-# _=os.system('code %s' %(os.path.join(PARENT_DIR, MARKDOWN)))
+
+file = os.path.join(PARENT_DIR, MARKDOWN)
+_=os.system('code %s' %file)
