@@ -10,7 +10,7 @@ os.rename(os.path.join(PROJECT_DIR, MARKDOWN),
           os.path.join(PARENT_DIR, MARKDOWN))
 
 shutil.rmtree(PROJECT_DIR)
-
+file = os.path.join(PARENT_DIR, MARKDOWN)
 import subprocess
-subprocess.call(['code',MARKDOWN])
+subprocess.call(['code',file])
 
