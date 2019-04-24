@@ -12,5 +12,5 @@ os.rename(os.path.join(PROJECT_DIR, MARKDOWN),
 shutil.rmtree(PROJECT_DIR)
 file = os.path.join(PARENT_DIR, MARKDOWN)
 print(file)
-import subprocess
-subprocess.call(['code',"\""+file+"\""],shell=True)
+import os
+os.system('code %s'%("\""+file+"\""))
