@@ -1,7 +1,7 @@
 import os
 import shutil
 
-MARKDOWN = '{% now 'local', '%Y-%m-%d' %}-{{ cookiecutter.tittle.lower() }}.md'
+MARKDOWN = '{% now 'local', '%Y-%m-%d' %}-{{ cookiecutter.tittle.lower().replace(' ','-') }}.md'
 
 PROJECT_DIR = os.path.realpath(os.path.curdir)
 PARENT_DIR = os.path.dirname(PROJECT_DIR)
