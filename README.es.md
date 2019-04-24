@@ -27,58 +27,13 @@ $ conda install cookiecutter
 ### Para arrancar con un nuevo proyecto, ejecutar:
 ------------
 
-    cookiecutter  gh:romellfudi/AndroidLibProject
+    cookiecutter gh:contactBoostTag/markdown
 
 ## Project Organization
 
 ```
 .
-app_name
-├── LICENSE
-├── README.md
-├── app
-│   ├── build.gradle
-│   ├── proguard-rules.pro
-│   └── src
-│       ├── androidTest
-│       │   └── java
-│       │       └── package_dir
-│       │           └── ExampleInstrumentedTest.java
-│       └── main
-│           ├── AndroidManifest.xml
-│           ├── java
-│           │   └── package_dir
-│           │       └── MainActivity.java
-│           └── res
-├── build.gradle
-├── gradle
-│   └── wrapper
-│       ├── gradle-wrapper.jar
-│       └── gradle-wrapper.properties
-├── gradle.properties
-├── gradlew
-├── gradlew.bat
-├── settings.gradle
-└── lib_name
-    ├── build.gradle
-    ├── proguard-rules.pro
-    └── src
-        ├── main
-        │   ├── AndroidManifest.xml
-        │   ├── java
-        │   │   └── lib_package_dir
-        │   │       ├── APICache.java
-        │   │       ├── APIException.java
-        │   │       ├── Api.java
-        │   │       ├── ApiAbstract.java
-        │   │       ├── Callback.java
-        │   │       ├── DataResponse.java
-        │   │       └── Module.java
-        │   └── res
-        └── test
-            └── java
-                └── lib_package_dir
-                    └── ExampleUnitTest.java
+{% now 'local', '%Y-%m-%d' %}-{{ cookiecutter.tittle }}.md
 ```
 
 [cookiecutter](https://github.com/audreyr/cookiecutter) plantilla para proyectos usando gradle.
