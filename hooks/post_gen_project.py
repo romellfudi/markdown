@@ -9,9 +9,8 @@ PARENT_DIR = os.path.dirname(PROJECT_DIR)
 os.rename(os.path.join(PROJECT_DIR, MARKDOWN),
           os.path.join(PARENT_DIR, MARKDOWN))
 
-
-file = os.path.join(PARENT_DIR, MARKDOWN)
-print(file)
-_=os.system('code %s' %MARKDOWN)
-
 shutil.rmtree(PROJECT_DIR)
+
+import subprocess
+_=subprocess.run('code %s' %MARKDOWN)
+
