@@ -31,9 +31,22 @@ $ conda install cookiecutter
 
 ## Project Organization
 
-```
+```sh
 .
-{% now 'local', '%Y-%m-%d' %}-{{ cookiecutter.tittle }}.md
+%Y-%m-%d-{cookiecutter.tittle}.md
+```
+
+## Markdown file
+```m
+---
+title: "{cookiecutter.tittle}"
+excerpt:
+last_modified_at: %a, %d %b %Y %H:%M
+tags: 
+  - "{cookiecutter.tag}"
+---
+
+Wellcome back
 ```
 
 [cookiecutter](https://github.com/audreyr/cookiecutter) plantilla para proyectos usando gradle.

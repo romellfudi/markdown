@@ -23,6 +23,18 @@ $ conda config --add channels conda-forge
 $ conda install cookiecutter
 ```
 
+## Markdown file
+```m
+---
+title: "{cookiecutter.tittle}"
+excerpt:
+last_modified_at: %a, %d %b %Y %H:%M
+tags: 
+  - "{cookiecutter.tag}"
+---
+
+Wellcome back
+```
 
 ### To start a new project, run:
 ------------
@@ -33,7 +45,7 @@ $ conda install cookiecutter
 
 ```
 .
-{% now 'local', '%Y-%m-%d' %}-{{ cookiecutter.tittle }}.md
+%Y-%m-%d-{cookiecutter.tittle}.md
 ```
 
 [cookiecutter](https://github.com/audreyr/cookiecutter) template for Gradle-based Android projects.
