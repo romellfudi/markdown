@@ -10,7 +10,8 @@ os.rename(os.path.join(PROJECT_DIR, MARKDOWN),
           os.path.join(PARENT_DIR, MARKDOWN))
 
 shutil.rmtree(PROJECT_DIR)
-file = os.path.join(PARENT_DIR, MARKDOWN)
+DIR = os.path.realpath(os.path.curdir)
+file = os.path.join(DIR, MARKDOWN)
 print(file)
 import os
 os.system('code %s'%("\""+file+"\""))
