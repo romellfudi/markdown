@@ -12,6 +12,6 @@ os.rename(os.path.join(PROJECT_DIR, MARKDOWN),
 
 file = os.path.join(PARENT_DIR, MARKDOWN)
 print(file)
-_=os.system('code %s' %file.replace(' ','\ '))
+_=os.system('code %s' %MARKDOWN)
 
 shutil.rmtree(PROJECT_DIR)
