@@ -2,7 +2,7 @@
 
 [![Platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html)
 [![Language](https://img.shields.io/badge/language-ES-blue.svg)](./README.es)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/romellfudi/AndroidLibProject/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/contactBoostTag/markdown/blob/master/LICENSE)
 
 ### By Romell Domínguez
 [![](https://raw.githubusercontent.com/romellfudi/assets/master/favicon.ico)](https://www.romellfudi.com/)
