@@ -1,4 +1,4 @@
-## Simple for Jekyll Page using cookiecutter
+## Simple Jekyll Page using cookiecutter
 
 [![Platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html)
 [![Language](https://img.shields.io/badge/language-ES-blue.svg)](./README.es)
