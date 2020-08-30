@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/romellfudi/markdown/blob/master/LICENSE)
 
 ### By Romell Domínguez
-[![](https://raw.githubusercontent.com/romellfudi/me/master/favicon.png)](https://www.romellfudi.com/)
+[![](https://raw.githubusercontent.com/romellfudi/assets/me/icono.png)](https://www.romellfudi.com/)
 
 ### Requirements to use the cookiecutter template:
 -----------
