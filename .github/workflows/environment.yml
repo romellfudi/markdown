@@ -1,4 +1,4 @@
-name: Testing the Template
+name: Testing the Project
 
 on: 
   push:
