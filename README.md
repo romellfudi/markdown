@@ -1,11 +1,11 @@
-## Simple Jekyll Page using cookiecutter
+## Blogs-Post's template using cookiecutter
 
-[![Platform](https://img.shields.io/badge/platform-android-brightgreen.svg)](https://developer.android.com/index.html)
-[![Language](https://img.shields.io/badge/language-ES-blue.svg)](./README.es)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/contactBoostTag/markdown/blob/master/LICENSE)
+[![cookiecutter](https://img.shields.io/badge/cookiecutter-%23000000.svg?&style=flat&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAALVBMVEVHcEzUqgDUqgDVqwDWrADVqwDUqgDVqgDjtgB3XwBkTwC8lgCcfAAAAAAkGwCsIouVAAAAB3RSTlMA%2B8GTKVrp%2F68ezgAAAY9JREFUeNqtltuShCAMRA0Xuer%2Ff%2B4GUBECxN3anqnyQY9JkxDZqJSWQuwAuxBSq42VkgIsyqDyVUjFAIBPQZIpF%2BRAqAVg8vMGn7%2BVKTOLpPcEhBhMqwTtekRIm94evfeuh%2FCGlZQQNuXvvHPOe8qAFUMCg7gMJYQyhCi3QpIZqWNkIXIx8IfiwuiUVStmAdRueMJokhZVePvYVVN0MwoSz9O9bCDBBYkHKl5EX0cFgyDWHed5%2BJdx3klMSMw2snFaRSp3pCBQjLN53X1A6lfLyNePWqkv7olsY2ElYhPHd1MBEksk5L0S%2B4pTYX%2FVIPiLfa9TwWMEAfw%2FPuTGI4V4lNpqmVgZFPHdvCQO3cKuHUdlFDGLPJhfd3a0lFPoHpR8wzT1lJ%2FbklrizdQ5Pt3Ha0u%2Fyaxmx4ehCz4dSvyC1zB8dqDrgP3IgPo4xmun6g8r4Jrelqt61j0UVp%2Bx0WTOW6gSS6bOnIeYfMRpYj5cM3B%2BVCCZhatdxroOJO1kLgeS%2Fzv2jA5XQA9XfzjC%2FQA4aymNKfcrSgAAAABJRU5ErkJggg%3D%3D)](https://github.com/cookiecutter/cookiecutter)
+[![Language](https://img.shields.io/badge/anguage-ES-blue.svg?logo=librarything)](./README.es)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/romellfudi/markdown/blob/master/LICENSE)
 
 ### By Romell Domínguez
-[![](https://raw.githubusercontent.com/romellfudi/assets/master/favicon.ico)](https://www.romellfudi.com/)
+[![](https://raw.githubusercontent.com/romellfudi/me/master/favicon.png)](https://www.romellfudi.com/)
 
 ### Requirements to use the cookiecutter template:
 -----------
@@ -39,7 +39,7 @@ Wellcome back
 ### To start a new project, run:
 ------------
 
-    cookiecutter  gh:contactBoostTag/markdown
+    cookiecutter gh:romellfudi/markdown
 
 ## Project Organization
 
