@@ -1,0 +1,16 @@
+name: GH Page
+
+on:
+  push:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check the deployed service gh-page
+      uses: Jtalk/url-health-check-action@v1.3
+      with:
+        url: https://romellfudi.github.io/markdown/
+        max-attempts: 3
+        retry-delay: 5s
